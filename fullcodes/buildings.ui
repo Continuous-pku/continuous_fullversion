@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>buildings</class>
+ <widget class="QWidget" name="buildings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>926</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#buildings{
+	border-image: url(:/new/pics/resouce/buildings/building_page.png);
+}
+#cover{
+	background-color: rgb(31, 78, 121);
+}
+#pushButton{
+    border-image:url(:/new/pics/resouce/exit_.png)
+}
+#pushButton:hover{
+	border-image: url(:/new/pics/resouce/exit__click.png);
+}
+#picture{
+	border-image: url(:/new/pics/resouce/buildings/image/southeastgate.png);
+}
+#level{
+	background-color: rgb(112, 48, 160);
+}
+#l3{
+	border-image: url(:/new/pics/resouce/buildings/level_3.png);
+}
+#l2{
+	border-image: url(:/new/pics/resouce/buildings/level_2.png);
+}
+#back_img{
+	border-image: url(:/new/pics/resouce/buildings/building_page.png);
+}</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>321</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#treeWidget{
+}</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>建筑升级</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>31</red>
+      <green>78</green>
+      <blue>121</blue>
+     </color>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>学生宿舍</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>1号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>32号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>33号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>34号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>35号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>36号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>37号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>38号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>39号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>40号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>41号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>42号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>43号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>44号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>45号宿舍楼</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>食堂</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>农园食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>艺院食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>家园食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>勺园食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学一食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学五食堂</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>第一教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第三教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第四教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>理科教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>文史楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>地学楼</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>医学部</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>五四操场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>五四体育馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>邱徳拔体育馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>未名湖</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>理科实验楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学校校门</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>东门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>南门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>西门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>西南门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>东南门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>东北门</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="picture">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>80</y>
+     <width>301</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="level">
+   <property name="geometry">
+    <rect>
+     <x>451</x>
+     <y>385</y>
+     <width>50</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="level_up">
+   <property name="geometry">
+    <rect>
+     <x>435</x>
+     <y>265</y>
+     <width>75</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#level_up{
+border-image: url(:/new/pics/resouce/buildings/l_up.png);
+}
+#level_up:hover{
+	border-image: url(:/new/pics/resouce/buildings/l_up_c.png);
+}
+#level_up:pressed{
+	border-image: url(:/new/pics/resouce/buildings/l_up_h.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>260</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#name{
+	color: rgb(255, 255, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>第二教学楼</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>310</y>
+     <width>241</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>350</y>
+     <width>241</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="back_img">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>926</width>
+     <height>483</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>back_img</zorder>
+  <zorder>treeWidget</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>picture</zorder>
+  <zorder>level</zorder>
+  <zorder>level_up</zorder>
+  <zorder>name</zorder>
+  <zorder>l3</zorder>
+  <zorder>l2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

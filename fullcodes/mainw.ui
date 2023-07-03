@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainw</class>
+ <widget class="QWidget" name="mainw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1056</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#mainw{
+	border-image: url(:/new/pics/resouce/background.png);
+}
+#label{
+	border-image: url(:/new/pics/resouce/red_bar.jpg);
+}
+#nextday
+{
+    border-image:url(:/new/pics/resouce/next_day.png);
+}
+#nextday:hover
+{
+	border-image: url(:/new/pics/resouce/next_day_click.png);
+}
+#exit{
+	border-image: url(:/new/pics/resouce/exit_.png);
+}
+#exit:hover{
+	border-image: url(:/new/pics/resouce/exit__click.png);
+}
+#menu_{
+	border-image: url(:/new/pics/resouce/menu_.png);
+}
+#menu_:hover{
+	border-image: url(:/new/pics/resouce/menu_click.png);
+}
+#pc{
+	border-image: url(:/new/pics/resouce/p_note.png);
+}
+#pc:hover{
+	border-image: url(:/new/pics/resouce/p_note_h.png);
+}
+#bu{
+	border-image: url(:/new/pics/resouce/b_note.png);
+}
+#bu:hover{
+	border-image: url(:/new/pics/resouce/b_note_h.png);
+}
+#info_dia{
+	border-image: url(:/new/pics/resouce/infos.png);
+}
+#label_2{
+	background-color: rgba(255, 255, 255, 0);
+}
+#back{
+	border-image: url(:/new/pics/resouce/infos.png);
+}
+#slog_{
+	border-image: url(:/new/pics/resouce/slog.png);
+}
+#act{
+	border-image: url(:/new/pics/resouce/operate.png);
+}
+#act:hover{
+	border-image: url(:/new/pics/resouce/operate_on.png);
+}
+#tep{
+	border-image: url(:/new/pics/resouce/buildings/building_page.png);
+}
+#p1:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p2:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p3:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p4:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p5:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p6:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p7:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p8:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p9:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p10:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p11:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p12:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p13:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p14:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p15:hover{
+	background-color: rgba(255, 249, 78, 100);
+}
+#p1{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p2{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p3{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p4{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p5{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p6{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p7{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p8{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p9{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p10{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p11{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p12{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p13{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p14{
+	background-color: rgba(255, 249, 78, 0);
+}
+#p15{
+	background-color: rgba(255, 249, 78, 0);
+}
+#quara{
+	border-image: url(:/new/pics/resouce/black_bar.png);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>655</x>
+     <y>21</y>
+     <width>0</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextday">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>490</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menu_">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pc">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>70</y>
+     <width>51</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bu">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>70</y>
+     <width>51</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="info_dia">
+   <property name="geometry">
+    <rect>
+     <x>848</x>
+     <y>108</y>
+     <width>181</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>181</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="infom">
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="back">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>100</y>
+     <width>201</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slog_">
+   <property name="geometry">
+    <rect>
+     <x>387</x>
+     <y>12</y>
+     <width>287</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="act">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>490</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p5">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>450</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p10">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>500</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p1">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>250</y>
+     <width>141</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p7">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>500</y>
+     <width>51</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p6">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>480</y>
+     <width>31</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p4">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>380</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>360</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p11">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>530</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p13">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>550</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p9">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>500</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p3">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>368</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p8">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>520</y>
+     <width>21</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p12">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>430</y>
+     <width>61</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p14">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>370</y>
+     <width>41</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="p15">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>470</y>
+     <width>31</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="quara">
+   <property name="geometry">
+    <rect>
+     <x>655</x>
+     <y>21</y>
+     <width>0</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>back</zorder>
+  <zorder>label</zorder>
+  <zorder>nextday</zorder>
+  <zorder>exit</zorder>
+  <zorder>menu_</zorder>
+  <zorder>info_dia</zorder>
+  <zorder>act</zorder>
+  <zorder>pc</zorder>
+  <zorder>bu</zorder>
+  <zorder>p5</zorder>
+  <zorder>p10</zorder>
+  <zorder>p1</zorder>
+  <zorder>p7</zorder>
+  <zorder>p6</zorder>
+  <zorder>p4</zorder>
+  <zorder>p2</zorder>
+  <zorder>p11</zorder>
+  <zorder>p13</zorder>
+  <zorder>p9</zorder>
+  <zorder>p3</zorder>
+  <zorder>p8</zorder>
+  <zorder>p12</zorder>
+  <zorder>p14</zorder>
+  <zorder>p15</zorder>
+  <zorder>quara</zorder>
+  <zorder>slog_</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
