@@ -150,7 +150,7 @@ public:
     string yam;
     mainw* win;
 };
-class Person {//�� ��
+class Person {
     friend class Game;
 private:
     int health_state;//0 表示健康 1表示感染 2表示隔离
@@ -166,7 +166,7 @@ public:
 class Building
 {
 private:
-    int level; // �����ﵱǰ�ĵȼ�
+    int level; 
 
     Policy* available_policy[10];
     int policy_state[10];
